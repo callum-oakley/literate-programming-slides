@@ -70,7 +70,8 @@ Literate Haskell
 
 - Haskell is particularly well suited to literate programming
 
-- Pages on the [Haskell wiki](https://wiki.haskell.org/Arrow_tutorial) are often written in Bird Style
+- Pages on the [Haskell wiki](https://wiki.haskell.org/Arrow_tutorial) are
+  often written in Bird Style
 
 ---
 
@@ -94,9 +95,12 @@ The markup style you use for the prose is up to you – pandoc is your friend.
 For example...
 ==============
 
-This presentation is a Literate Haskell file, so we can load it in to GHC and have some fun!
+This presentation is a Literate Haskell file, so we can load it in to GHC and
+have some fun!
 
-First to see that this behaves just like a normal source file, let’s make use of the ‘fibs’ definition form the previous slide to approximate the golden ratio.
+First to see that this behaves just like a normal source file, let’s make use
+of the ‘fibs’ definition form the previous slide to approximate the golden
+ratio.
 
 ```
 > approxGoldenRatio n = p / q
@@ -105,4 +109,5 @@ First to see that this behaves just like a normal source file, let’s make use 
 >     q = fromInteger $ fibs !! n
 ```
 
-Why this works is out of the scope of these slides, but normally there would be a beautiful explanation of the mathematics here.
+Why this works is out of the scope of these slides, but normally there would be
+a beautiful explanation of the mathematics here...
