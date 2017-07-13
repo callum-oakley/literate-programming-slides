@@ -29,8 +29,8 @@ Why?
 
 ---
 
-When?
-=====
+Where?
+======
 
 - Blog posts
 
@@ -69,7 +69,7 @@ friend*.
 ---
 
 I’m So Meta Even This Acronym
-==============
+=============================
 
 These slides are valid Literate Haskell source.
 
