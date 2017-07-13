@@ -21,7 +21,7 @@ What?
 Why?
 ====
 
-- Streamlines the writing of documents with embedded code
+- Confidence in correctness of code snippets
 
 - Elucidated thought process
 
