@@ -107,10 +107,3 @@ the golden ratio.
 ```
 
 There’s an intentional mistake in the snippet above. Time for a live fix!
-
----
-
-Links
-=====
-
-maybe.
