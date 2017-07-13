@@ -90,7 +90,7 @@ The markup language you use for the prose is up to you – *pandoc is your frien
 
 ---
 
-For example...
+I’m So Meta Even This Acronym
 ==============
 
 This presentation is a Literate Haskell file.
