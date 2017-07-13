@@ -7,8 +7,8 @@ Literate Programming
 
 ---
 
-What is literate programming?
-=============================
+What?
+=====
 
 - Don’t have comments in code, have code in prose
 
@@ -16,16 +16,12 @@ What is literate programming?
 
 - Program flow matches logical flow
 
-- Weaving, tangling, & tooling
-
 ---
 
-Why tho?
-========================
+Why?
+====
 
-- Embedded snippets can’t be out of date if they *are* the code
-
-- Streamlines the process of writing technical documents
+- Streamlines the writing of documents with embedded code
 
 - Elucidated thought process
 
@@ -33,31 +29,14 @@ Why tho?
 
 ---
 
-When is it crap?
-================
-
-- When you wanted a manual but were handled a novel
-
-- Code ordering can cause friction
-
-- Non “literate aware” tooling is a barrier
-
-- Comment rot: probably still a thing
-
----
-
-When is it great?
-=================
+When?
+=====
 
 - Blog posts
 
 - Tutorials
 
 - Example heavy documentation
-
-- Puzzle solutions
-
-- Slides?
 
 ---
 
@@ -93,7 +72,7 @@ The markup language you use for the prose is up to you – *pandoc is your frien
 I’m So Meta Even This Acronym
 ==============
 
-This presentation is valid Literate Haskell source.
+These slides are valid Literate Haskell source.
 
 Let’s make use of the ‘fibs’ definition from the previous slide to approximate
 the golden ratio.
@@ -106,4 +85,4 @@ the golden ratio.
 >     q = fibs !! accuracy
 ```
 
-There’s an intentional mistake in the snippet above. Time for a live fix!
+There’s an error in the snippet above. Time for a live fix!
