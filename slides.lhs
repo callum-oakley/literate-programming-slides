@@ -3,7 +3,7 @@ class: center
 Literate Programming
 ====================
 
-*How you can type check your blog, and why you should*
+*How you can type check your blog, and why you’d want to*
 
 ---
 
@@ -93,7 +93,7 @@ The markup language you use for the prose is up to you – *pandoc is your frien
 I’m So Meta Even This Acronym
 ==============
 
-This presentation is a Literate Haskell file.
+This presentation is valid Literate Haskell source.
 
 Let’s make use of the ‘fibs’ definition from the previous slide to approximate
 the golden ratio.
