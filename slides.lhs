@@ -43,9 +43,7 @@ When?
 Literate Haskell
 ================
 
-- GHC has native support for ‘.lhs’ files
-
-- You can mix and match ‘.lhs’ and ‘.hs’ files
+- GHC has native support for *.lhs* files
 
 - Haskell is particularly well suited to literate programming
 
@@ -65,7 +63,8 @@ slide.
 > fibs = 0 : scanl (+) 1 fibs
 ```
 
-The markup language you use for the prose is up to you – *pandoc is your friend*.
+The markup language you use for the prose is up to you – *pandoc is your
+friend*.
 
 ---
 
