@@ -100,10 +100,10 @@ the golden ratio.
 
 ```
 > approxGoldenRatio :: Int -> Double
-> approxGoldenRatio n = p / q
+> approxGoldenRatio accuracy = p / q
 >   where
->     p = fibs !! (n + 1)
->     q = fibs !! n
+>     p = fibs !! (accuracy + 1)
+>     q = fibs !! accuracy
 ```
 
 There’s an intentional mistake in the snippet above. Time for a live fix!
