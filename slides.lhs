@@ -95,7 +95,7 @@ I’m So Meta Even This Acronym
 
 This presentation is a Literate Haskell file.
 
-Let’s make use of the ‘fibs’ definition form the previous slide to approximate
+Let’s make use of the ‘fibs’ definition from the previous slide to approximate
 the golden ratio.
 
 ```
