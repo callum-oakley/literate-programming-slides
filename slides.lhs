@@ -1,4 +1,4 @@
-class: center, middle
+class: center
 
 Literate Programming
 ====================
@@ -66,48 +66,51 @@ Literate Haskell
 
 - GHC has native support for ‘.lhs’ files
 
-- You can mix and match with ‘.hs’ to your hearts content
+- You can mix and match ‘.lhs’ and ‘.hs’ files
 
 - Haskell is particularly well suited to literate programming
 
 - Pages on the [Haskell wiki](https://wiki.haskell.org/Arrow_tutorial) are
-  often written in Bird Style
+  often written in *Bird Style*
 
 ---
 
 Bird Style
 ==========
 
-This is one of the supported styles for writing Literate Haskell.
-
-GHC ignores every line that doesn’t begin with a ‘>’. So your file ends up
-looking something like this slide.
+Code is marked with a ‘>’. So your files ends up looking something like this
+slide.
 
 ```
 > fibs :: [Integer]
 > fibs = 0 : scanl (+) 1 fibs
 ```
 
-The markup style you use for the prose is up to you – pandoc is your friend.
+The markup language you use for the prose is up to you – *pandoc is your friend*.
 
 ---
 
 For example...
 ==============
 
-This presentation is a Literate Haskell file, so we can load it in to GHC and
-have some fun!
+This presentation is a Literate Haskell file.
 
-First to see that this behaves just like a normal source file, let’s make use
-of the ‘fibs’ definition form the previous slide to approximate the golden
-ratio.
+Let’s make use of the ‘fibs’ definition form the previous slide to approximate
+the golden ratio.
 
 ```
+> approxGoldenRatio :: Int -> Double
 > approxGoldenRatio n = p / q
 >   where
->     p = fromInteger $ fibs !! (n + 1)
->     q = fromInteger $ fibs !! n
+>     p = fibs !! (n + 1)
+>     q = fibs !! n
 ```
 
-Why this works is out of the scope of these slides, but normally there would be
-a beautiful explanation of the mathematics here...
+There’s an intentional mistake in the snippet above. Time for a live fix!
+
+---
+
+Links
+=====
+
+maybe.
